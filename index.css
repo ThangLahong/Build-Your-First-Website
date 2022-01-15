@@ -1,0 +1,84 @@
+main {
+    background-color: #f1f1f1;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.input {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+.jumbotron h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.jumbotron img {
+    padding-top: 10px;
+    width: 150px !important;
+}
+section {
+    width: 90%;
+    margin: auto;
+}
+section h3 {
+    font-family: 'Philosopher', sans-serif;
+}
+section h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+section p {
+    text-indent: 3vw;
+}
+
+.hover:hover {
+    background-color: cyan;
+}
+footer {
+    background-color: #e9ecef;
+}
+
+/* For Sign Up */
+.form {
+    margin: auto;
+    
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+}
+
+/* For TNPD */
+main .big-col {
+    width: 65%;
+    float: left;
+}
+main .small-col {
+    width: 35%;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.card-90 {
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+
+@media only screen and (max-width: 992px) {
+    main .big-col {
+        width: 100%;
+    }
+    main .small-col {
+        width: 100%;
+        position: relative;
+    }
+}
